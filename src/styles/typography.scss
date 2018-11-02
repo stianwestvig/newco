@@ -1,0 +1,24 @@
+
+// Fonts
+$font-family-title: 'Ubuntu', sans-serif;
+$font-family-text: 'Lato', sans-serif;
+
+// Font sizes
+$font-size-title-large: 32px;
+$font-size-text-normal: 22px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-title;
+}
+
+h1 {
+  font-size: $font-size-title-large;
+  line-height: 44px;
+}
+
+p, a, li {
+  font-family: $font-family-text;
+  font-size: $font-size-text-normal;
+  line-height: 32px;
+}
+

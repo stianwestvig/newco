@@ -1,0 +1,15 @@
+@import 'normalize';
+@import 'boilerplate';
+@import 'variables';
+@import 'typography';
+
+@import 'navigation';
+@import 'hero';
+@import 'content';
+
+
+body {
+  padding: $global-padding-small;
+}
+
+

@@ -1,0 +1,19 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px 20px;
+  
+  >li {
+    float: left;
+    color: $color-blue-prime;
+  }
+  
+  .search {
+    display: none;
+  }
+  
+  nav {
+    display: none;
+  }
+}

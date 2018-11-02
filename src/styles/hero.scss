@@ -1,0 +1,17 @@
+.hero {
+  
+  img {
+    width: 100%;
+  }
+  
+  .text-bg {
+    background-color: $color-blue-prime;
+    color:$color-white;
+    padding: 30px;
+    
+    >h1 {
+      color: $color-white;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.content {
+  
+  >* { padding: $content-padding-small; }
+  
+  @media #{$tablet} {
+    >* { padding: $content-padding-large }
+  }
+}
