@@ -1,0 +1,16 @@
+{
+  "name": "newcorp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.4"
+  },
+  "scripts": {
+    "server": "http-server dist",
+    "sass": "node-sass src/styles/index.scss dist/index.css --watch --recursive",
+    "dev": "yarn sass | yarn server"
+  },
+  "dependencies": {}
+}
